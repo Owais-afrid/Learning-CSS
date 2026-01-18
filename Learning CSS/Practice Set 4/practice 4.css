@@ -1,0 +1,46 @@
+ * {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            font-size: 30px;
+            background-color: cadetblue;
+        }
+        button {
+            height: 60px;
+            width: 60px;
+            margin: 100px;
+            border: 1px dotted red;
+            border-radius: 35px;
+            padding: 10px 15px 10px 15px;
+        }
+        .box {
+            height: 75px;
+            width: 75px;
+            padding: 3px;
+            margin: 5px;
+        }
+        #box1 {
+            background-color: lightcoral;
+            border: 2px solid black;
+            box-sizing: border-box;
+        }
+        #box2 {
+            background-color: cornflowerblue;
+            box-sizing: content-box;
+        }
+
+/* This is Practice Set 4 here i used Level 4 revision and the properties of box like "margin", "padding", "border" and made this sample file 
+ 
+Practice Set Level 4
+Box Model
+
+- Create a div with height and width 200px and observe different values in the box model by
+inspecting.
+- Create a button and give 10px padding to top and bottom and 15px on the sides.
+- Add 100px margin to the button on all sides.
+- Add dotter border with color red and so much that the button becomes a circle.
+- Create two boxes with different box-sizing values and observe changes in box model. */

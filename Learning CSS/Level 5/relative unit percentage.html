@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Relative units:percentage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #first {
+            height: 150px;
+            width: 250px;
+            background-color: darkkhaki;
+        }
+
+        #second {
+            height: 20%;
+            width: 50%;
+            background-color: deepskyblue;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="first">
+        First
+        <div id="second">
+            Second
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- This is "relative unit" like defininig the size in different units like "px", "%" and more etc and here i have used "%" and defined "second"  its size and this "percentage is realtive to its parent size to make it simpler, in the above i used 2 "div" tags and in the "#first" i gave height and width in "px" and so in "second" i used "%" and it divided the "%" from those "px" like if "100px" and gave "50%" it takes "50%" of "100px".-->

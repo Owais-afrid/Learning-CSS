@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learning Transition</title>
+    <style>
+        .pseudo {
+            height: 25px;
+            width: 150px;
+            background-color: mediumaquamarine;
+            border: 2px solid black;
+            border-radius: 10px;
+ 
+            /* transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s; */
+
+            transition: all 1s ease-in-out 0s;
+        }
+
+        .pseudo:hover {
+            height: 30px;
+            width: 170px;
+            background-color: lightcoral;
+        }    
+
+        .pseudo:active {
+            background-color: mediumpurple;
+        }
+</style>
+</head>
+<body>
+    <button class="pseudo">Learning Psuedo</button>
+</body>
+</html>

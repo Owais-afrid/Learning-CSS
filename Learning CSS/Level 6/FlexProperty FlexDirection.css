@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+    
+    h1 {
+    text-align: center;
+}
+
+
+#container {
+    margin-left: 370px;
+    height: 475px;
+    width: 550px;
+    background-color: lightyellow;
+    border: 2px solid;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box {
+    height: 85px;
+    width: 85px;
+    margin: 5px;
+    border: 2px solid;
+    }
+#box1 {background-color: mediumaquamarine;}
+#box2 {background-color: mediumvioletred;}
+#box3 {background-color: mediumpurple;}
+#box4 {background-color: mediumseagreen}
+
+/* This is "Flex property" and used one of the many properties which is "Flex Direction"
+ First you use "Dispaly: Flex;" to arrange the elements in the same line just like "Inline-Block" and then we use "Flex Direction" to change its direction like by default alligned as "row" you use that property to "row reverse", "column", "column-reverse". */

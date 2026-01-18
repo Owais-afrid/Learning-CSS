@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+    
+    h1 {
+    text-align: center;
+}
+
+
+#container {
+    margin-left: 370px;
+    height: 475px;
+    width: 550px;
+    background-color: lightyellow;
+    border: 2px solid;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.box {
+    height: 85px;
+    width: 85px;
+    margin: 5px;
+    border: 2px solid;
+    }
+#box1 {background-color: mediumaquamarine;}
+#box2 {background-color: mediumvioletred;}
+#box3 {background-color: mediumpurple;}
+#box4 {background-color: mediumseagreen}
+
+ /* This is one of the "Flex Property" called "justify content" so we use this to align the items using the main axis so like aligning 
+ "justify-content: start"
+ "justify-content: end"
+ "justify-content: center"
+ then comes "Space around/between/evenly" to maintain space between each item using these properties. */

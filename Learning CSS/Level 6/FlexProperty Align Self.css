@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+    
+    h1 {
+    text-align: center;
+}
+
+
+#container {
+    margin-left: 370px;
+    height: 650px;
+    width: 550px;
+    background-color: lightyellow;
+    border: 2px solid;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box {
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border: 2px solid;
+    text-align: center;
+    }
+#box1 {background-color: mediumaquamarine;}
+#box2 {
+    background-color: mediumvioletred;
+    align-self: self-end;
+}
+#box3 {background-color: mediumpurple;}
+#box4 {background-color: mediumseagreen}
+
+/* This is one of the "Flex Properties" and its called "Align Self" so this means "Allows individual flex items to override the container's align items property, aligning them differently along the "cross-axis" (cross axis is perpendicular to main axis if "main axis" is "row" or "row-reverse" the "cross axis" runs down the "column", if "main axis" using "column" or "column reverse" then cross axis will runs along the "rows")". */

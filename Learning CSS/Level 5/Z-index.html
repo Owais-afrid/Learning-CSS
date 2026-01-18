@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Z-index position property</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .boxes {
+           position: relative;
+        }
+        #box1, #box2 {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            text-align: center;
+            border: 2px solid;
+            font-size: 20px;
+            
+        }
+        #box1 {
+            background-color: lightblue;
+            top: 20px;
+            left: 60px;
+            z-index: 2;
+        }
+        #box2 {
+            background-color: lightpink;
+            top: 60px;
+            left: 20px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div id="box1">Z-index box 1</div>
+        <div id="box2">Z-index box 2</div>
+    </div>
+</body>
+</html>
+
+<!-- this is "Z-index" one of the position property where you make an item place it above like that so here i used the examples of the box and also this "Z-index" property only works with "Relative", "Absolute", "Fixed" and "Sticky". -->

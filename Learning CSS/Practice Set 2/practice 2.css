@@ -1,0 +1,31 @@
+* {
+            margin: 0; padding: 0%;
+        }
+        #bar {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+        }
+        main {
+            height: 500px;
+            background-color: lightgoldenrodyellow;
+        }
+        #property1 {
+            height: 400px; 
+            width: 200px; 
+            /* background-image: url(tracksuit.webp);
+            background-repeat: no-repeat;
+            background-color: bisque;
+            background-position: top;  */
+            background: bisque url(tracksuit.webp) no-repeat left;
+        }
+
+/* This is practice 2 of CSS what i learnt in the revison 2 and testing it out 
+ the practice 2 topic was 
+ 
+ Practice Set Level 2
+ Color System & Background
+ 
+. Create a div bar with text and background color with opacity
+. Change the color of the main content
+. Add background image to one div
+. Use background shorthand property */

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+    
+    h1 {
+    text-align: center;
+}
+
+
+#container {
+    margin-left: 370px;
+    height: 650px;
+    width: 550px;
+    background-color: lightyellow;
+    border: 2px solid;
+    
+    display: flex;
+    
+    flex-wrap: wrap-reverse;
+}
+.box {
+    height: 175px;
+    width: 150px;
+    margin: 5px;
+    border: 2px solid;
+    }
+#box1 {background-color: mediumaquamarine;}
+#box2 {background-color: mediumvioletred;}
+#box3 {background-color: mediumpurple;}
+#box4 {background-color: mediumseagreen}
+
+/* This is one of the "Flex property" and is called "Flex Wrap" and what it does is basically if one line fills and the next item shouldn't shrink then it goes to the next line so we have 3 properties in this 
+ 1) nowrap: basically it doesn't do wrap 😊 simple lol.
+ 2) wrap: as the definition says it basically shifts the items in one line to the next one if no space is there for the last item in the line.
+ 3) wrap-reverse: so this does reverse but in the way it does so in this the recent ones like if ya adding a new element or changing in the code so that shows first then the rest like that. */

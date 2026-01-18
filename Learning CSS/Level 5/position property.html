@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>position property</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            height: 75px;
+            width: 75px;
+            margin: 5px;
+            background-color: darksalmon;
+        }
+        #box1 {
+            position: static;
+        }
+        #box2 {
+            position: relative;
+            top: 30px;
+            left: 75px;
+        }
+        #box3 {
+            position: absolute;
+            top: 60px;
+        }
+        #box4 {
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Box 1</div>
+    <div id="box2" class="box">Box 2</div>
+    <div id="box3" class="box">Box 3</div>
+    <div id="box4" class="box">Box 4</div>
+    <div id="box5" class="box">Box 5</div>
+    <div id="box6" class="box">Box 6</div>
+    <div id="box7" class="box">Box 7</div>
+    <div id="box8" class="box">Box 8</div>
+    <div id="box9" class="box">Box 9</div>
+    <div id="box10" class="box">Box 10</div>
+    <div id="box11" class="box">Box 11</div>
+</body>
+</html>
+
+<!-- This is position property and here i have used 4 properties "static", "relative", "absolute", "fixed". 
+ "Static" means the default position.
+ "Relative" it changes its positon from the default place.
+ "Absolute" it changes its position from the top left cornor of the webpage. 
+ "Fixed" it stays fixed and its similar to "Absolute" like its measures from the top left of the webpage but stays fixed like even if you scroll you can still see the "Fixed" position. 
+
+ Here i also used many divs of boxes to show that "Box 4" is "Fixed". -->

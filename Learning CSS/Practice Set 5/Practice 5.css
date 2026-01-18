@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 5px;
+}
+
+nav, a {
+    margin-left: 55px;
+    text-decoration: none;
+    padding: 5px;
+}
+header {
+    background-color: lightgray;
+    height: 28px;
+}
+#first {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50px;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: lightpink;
+    margin: 5px;
+    display: inline-block;
+}
+#box2 {
+    z-index: 2;
+    position: absolute;
+    left: 50px;
+}
+#container {
+    border: 2px solid;
+    margin: 5px;
+}
+#box4 {
+    position: fixed;
+    right: 2px;
+}
+footer {
+    position: fixed;
+    bottom: 1px;
+    background-color: lightyellow;
+    }
+
+/* This is Practice Set 5, in here i used many things that i learned in the "Level 5"
+ in here i used various properties and made it look like a website well it's not that good but just for practice that had instructions ain't bad. 
+
+Practice Set Level 5
+Display and Position
+
+- Create a webpage with header, footer, and a content area.
+* HEADER
+- Create a nav bar with links
+* MAIN
+- Create a div with width and height, Background green and border radius 50%
+- Create Three divs with container height and width 100px. Display inline block.
+- Set the correct position property for the single div element to ensure it remains at 
+  the right side of the page and does not shift when scrolling.
+- Use z-index to place the div on top of another div.
+* FOOTER
+- Add text in footer.  */

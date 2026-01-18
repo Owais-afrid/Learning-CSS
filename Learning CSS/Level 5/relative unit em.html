@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Relative Unit:em</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #first {
+            height: 150px;
+            width: 250px;
+            font-size: 20px;
+            background-color: darkkhaki;
+        }
+
+        #second {
+            height: 20%;
+            width: 50%;
+            font-size: 2em;
+            background-color: deepskyblue;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="first">
+        First
+        <div id="second">
+            Second
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- This is "relative unit" basically changing the size through "px", "%", "em" 
+ here i have used "em" too this time this is applicable for "font size" and "em" is also related to the parent and what it does is basically multiplying the value of the parent
+ in above i gave "#first" 20px and in "second" i gave "2em" font size and making it twice of the 20px. -->

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Border Property</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            height: 40px;
+            width: 40px;
+            padding: 5px;
+            margin: 5px;
+        }
+        #box1 {
+            background-color: plum;
+            border: 1px solid;
+            border-radius: 5px 15px 5px 5px;
+            box-sizing: border-box;
+        }
+        #box2 {
+            background-color: thistle;
+            border: 1px dashed crimson
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Box 1</div>
+    <div id="box2" class="box">Box 2</div>
+</body>
+</html>
+
+<!-- here i used border properties like using a border and giving its size,style(solid, dashed, dotted) and color and then i used "border radius" to make the corners of the box in rounded shape and then i used "box size" property to make the border in either "border box"(takes the exact size of given height and width) or "content box"(default one where border takes place around the content). -->

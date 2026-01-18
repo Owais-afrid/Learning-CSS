@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>visibility</title>
+    <style>
+       .box {
+        height: 40px;
+        width: 40px;
+       }
+       #box1 {
+        background-color: darkmagenta; 
+        visibility: hidden;
+       }
+       #box2 {
+        background-color: deepskyblue;
+       }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">
+        Box 1
+    </div> <br>
+    <div id="box2" class="box">
+        Box 2
+    </div>
+</body>
+</html>
+<!-- here i have used "visibility" attribute in "box1" id selector and made it "hidden" even tho its hidden it doesn't mean that "box2" id selector will be replaced in the "box1" it's just that "box1" is there and is not visible and "box2" is visible by default.  -->

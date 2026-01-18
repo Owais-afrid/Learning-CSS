@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display Property</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            height: 85px;
+            width: 85px;
+            margin: 5px;
+            background-color: lightgreen;
+
+            display: inline-block;
+        }
+
+        #box1 {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Box 1</div>
+    <div id="box2" class="box">Box 2</div>
+</body>
+</html>
+
+<!-- This is learning about "display properties" and in this we learn 3 properties they are "display:block", "display:inline", "display:inline-block" and "none".
+ 
+Block: This element basically takes the whole space, blocks the whole horizontal line and whichever tags we use it automatically shows from the next line. 
+
+Inline: This element shows in the same line however you can't change its size even if you defined the size it automatically cancels it and takes the size of only "content" part.
+
+Inline-block: This element is the counter of "inline" element this allows you to continue the same line and also allows you to change its size like height and width.
+
+None: This element basically deletes the space which you wanted to delete unlike "visibility" property which only makes it "hidden" not deleting the space too but "display:none" deletes it too as in the above "Box 1" is deleted. -->

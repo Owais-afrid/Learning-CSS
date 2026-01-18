@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+    
+    h1 {
+    text-align: center;
+}
+
+
+#container {
+    margin-left: 370px;
+    height: 650px;
+    width: 550px;
+    background-color: lightyellow;
+    border: 2px solid;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box {
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border: 2px solid;
+}
+
+#box1 {background-color: mediumaquamarine;}
+#box2 {
+    background-color: mediumvioletred;
+    flex-shrink: 3;
+}
+#box3 {background-color: mediumpurple;}
+#box4 {background-color: mediumseagreen}
+
+/* This is one of the "Flex Properties" called "Flex Shrink" and what it does is basically shrink the item to the relative which has insufficient space". */

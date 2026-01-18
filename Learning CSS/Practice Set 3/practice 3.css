@@ -1,0 +1,43 @@
+* {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+       #home h1 {
+        /* This is "descendant selector" */
+        background-color: lightsteelblue;
+        text-align: center;
+        text-transform: capitalize;
+       }
+       #outer {
+        font-size: 25px;
+       }
+       #inner {
+        font-size: 10px;
+       }
+
+       .fa-linkedin {
+        color: #0a66c2;
+        font-size: 150px;
+       }
+       .fa-github {
+        color: black;
+        font-size: 150px;
+       }
+       p {
+        text-align: center;
+       }
+
+/* This is "Practice set 3" and in "pratice set 3" i used most of the revision from "Level 3"
+ and implemented it and the topics in "The Practice Set 3" are:
+ 
+Practice Set Level 3
+Text Properties
+. Create an Heading at the centre and make capitalized.
+. Use Font family for the whole page to TimeNewRoman.
+. Create one div inside another div.
+   Set id and text outer to outer div,
+   set id and text inner to inner div.
+   Set outer div text size to 25px.
+   Set inner to 10px.
+. Use icons from fontawesome. com and use icons of LinkedIn and GitHub. */

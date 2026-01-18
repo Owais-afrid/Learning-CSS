@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Relative Unit:rem</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            font-size: 30px;
+        }
+        #first {
+            height: 150px;
+            width: 250px;
+            font-size: 20px;
+            background-color: darkkhaki;
+        }
+
+        #second {
+            height: 20%;
+            width: 50%;
+            font-size: 2em;
+            background-color: deepskyblue;
+        }
+        
+        #third {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    This is the Beginning 
+    <div id="first">
+        First
+        <div id="second">
+            Second
+            <div id="third">
+                Third
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- This is "relative unit" basically changing the size through "px", "%", "em", "rem"
+ here i used "rem" same as "em" but there's a change instead of changing according to "parent" "rem" changes to its "root" element lets look above and see the root is "This is the beginning" so when i gave font-size 30px in "universal selector" and then i used "#third" id and gave its font size "2rem" and the output is "60px" doubled the "30px"-->
